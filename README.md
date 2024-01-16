@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@esm/index.mjs';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@v0.1.0-esm/index.mjs';
 ```
 
 #### toReversed( x )
@@ -106,7 +106,7 @@ var bool = ( out === x );
 <script type="module">
 
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@esm/index.mjs';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@v0.1.0-esm/index.mjs';
 
 var x = zeroTo( 6 );
 // returns [ 0, 1, 2, 3, 4, 5 ]
