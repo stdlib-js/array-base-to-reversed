@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-to-reversed/tags). For example,
+
+```javascript
 import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@v0.2.1-esm/index.mjs';
 ```
 
@@ -106,7 +111,7 @@ var bool = ( out === x );
 <script type="module">
 
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@v0.2.1-esm/index.mjs';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@esm/index.mjs';
 
 var x = zeroTo( 6 );
 // returns [ 0, 1, 2, 3, 4, 5 ]
