@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-to-reversed/tags). For example,
+
+```javascript
 import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@v0.2.1-deno/mod.js';
 ```
 
@@ -101,7 +106,7 @@ var bool = ( out === x );
 
 ```javascript
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@v0.2.1-deno/mod.js';
+import toReversed from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-to-reversed@deno/mod.js';
 
 var x = zeroTo( 6 );
 // returns [ 0, 1, 2, 3, 4, 5 ]
